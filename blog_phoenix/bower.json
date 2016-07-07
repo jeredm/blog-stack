@@ -1,0 +1,20 @@
+{
+  "name": "blog_phoenix",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Jered Myers <jeredamyers@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jeredm/blog-stack",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

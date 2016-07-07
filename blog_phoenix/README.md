@@ -18,3 +18,6 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: http://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+## Instalation Notes
+  * Installed Bower to include the full bootstrap (http://blog.makingdevs.com/2016/03/24/phoenix-bootstrap/)
