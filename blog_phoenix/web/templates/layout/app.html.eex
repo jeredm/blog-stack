@@ -9,6 +9,9 @@
 
     <title>Phoenix Framework Blog</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <script>
+      $(document).ready(function(){alert('hi');});
+    </script> 
   </head>
 
   <body>
@@ -32,8 +35,11 @@
                 <li><a href="<%= blog_path(@conn, :index) %>">New Blog</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
-                <li><button type="button" class="btn btn-default navbar-btn" onclick="window.location.href='<%= login_path(@conn, :index) %>'">Sign in</button></li>
-                <li role="separator" class="divider"></li>
+                <li>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-default navbar-btn" onclick="window.location.href='<%= login_path(@conn, :index) %>'">Sign in</button>
+                  </div>
+                </li>
               </ul>
             </div>
         </div>

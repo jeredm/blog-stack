@@ -4,6 +4,6 @@ This project is used as a learning tool to combine different technolgies to crea
 Here are a few combinations to try:
 - [ ] Pheonix Framework/Brunch/PostgreSQL/Bootstrap (blog_phoenix)
 - [ ] Apache Wicket/MongoDB/Foundation
-- [ ] React/Webpack/MySQL
+- [ ] React/Redux/MongoDB
 - [ ] Elm/Riak
 - [ ] ?/Cassandra
