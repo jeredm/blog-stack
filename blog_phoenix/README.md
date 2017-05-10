@@ -1,4 +1,5 @@
 # BlogPhoenix
+A blog that uses Phoenix Framework, Elixir, and PostgreSQL.
 
 To start your Phoenix app:
 
